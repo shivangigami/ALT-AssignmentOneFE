@@ -23,7 +23,12 @@ label
  p a
  {
     text-decoration: none;
-    color:#cc3b33;
+    color:#accc33;
+ }
+
+ p a:hover
+ {
+     font-size: 18px;
  }
 .container
 {
@@ -41,6 +46,7 @@ label
 input[type=submit]
 {
     background-color:#ab5e54;
+    text-decoration: none;
 }
 
 input[type=submit]:hover
@@ -60,6 +66,21 @@ input
     padding: 12px 20px;
     margin-bottom: 30px;
     
+}
+
+/* styling for Registration Page*/
+.box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color:#0085ff ;
+    box-shadow:20px 20px 400px 10px #0454fb inset;
+    border-radius: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    height: 750px;
 }
 
 
