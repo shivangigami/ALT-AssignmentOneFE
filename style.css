@@ -102,6 +102,7 @@ th
     
 }
 
+
 td:hover
 {
     background-color:cadetblue;
@@ -122,10 +123,11 @@ td:hover
         font-size: 20px;
         text-align: center;
     }
-    table
+    table 
 {
-   width: 80%;
+   width: 40%;
    text-align: center;
+   
 }
     .container
 {
@@ -162,6 +164,10 @@ p a:hover
     }
     .container{
         height: 100vh;
+    }
+    h1 
+    {
+        font-size: 40px;
     }
 
     .login
